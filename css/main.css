@@ -1,0 +1,326 @@
+/* reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { vertical-align: baseline; font-family: inherit; font-weight: inherit; font-style: inherit; font-size: 100%; outline: 0; padding: 0; margin: 0; border: 0; }
+:focus { outline: 0; }
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+
+
+.top-bar{display: block; width: 100%; height: 170px; }
+.content{display: block; width: 100%; height: 270px; }
+.nav-bar{display: block; width: 298px; height: 35px; margin-left:13px;  background-image: url(../img/menu.png);}
+.espa{ height:5px; width:100%;}
+.nav-item{
+	width: 15%;
+	float: left;
+	margin: 0 2.5% 0 2.5%;
+	height: 40px;
+	text-align: center;
+	font-size: .5em;
+	font-family: Arial;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.column{
+	width: 90px;
+	height: 110px;
+	display: block;
+	float: left;
+}
+.column1{
+	width: 90px;
+	height: 110px;
+	display: block;
+	float: left;
+	background-image: url(../img/columna1.png);
+	margin-top:15px;
+	margin-left:18px;
+}
+.column2{
+	width: 90px;
+	height: 110px;
+	display: block;
+	float: left;
+	background-image: url(../img/columna2.png);
+	margin-top:15px;
+}
+.column3{
+	width: 90px;
+	height: 110px;
+	display: block;
+	float: left;
+	background-image: url(../img/columna3.png);
+	margin-top:15px;
+}
+.contenedor{
+	width: 280px;
+	height: 125px;
+	display: block;
+	float: left;
+	background-image: url(../img/contenedor.png);
+	margin-left:21px;
+	margin-top:10px;
+}
+.titulo{ width:90px; height:10; display:block; float:left; margin-top:5px;}
+.sepa{ width:8px; height:125px; display:block; float:left;}
+
+.imagen1{
+	width: 80px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../img/pinto.png);
+	margin-left:5px;
+}
+.imagen2{
+	width: 80px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../img/almuerzo.png);
+	margin-left:5px;
+}
+.imagen3{
+	width: 80px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../img/cena.png);
+	margin-left:5px;
+}
+.imagen4{
+	width: 80px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../img/cafe.png);
+	margin-left:5px;
+	margin-top:5px;
+}
+.imagen5{
+	width: 80px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../img/postre.png);
+	margin-left:5px;
+	margin-top:5px;
+}
+.tabla{
+	width: 15px;
+	height: 20px;
+	background-image: url(../img/Tabla.png);
+	display:block;
+	margin-top: 5px;
+	margin-left:5px;
+}
+@media only screen and (max-width: 320px){
+	
+	body {
+	background-image: url(../img/fondo1.png); width:20em; height:30em;
+}
+	
+    .nav-bar ul{list-style-type: none;
+                text-align: center;
+                left: 0;
+                padding-top: .5em;}
+    .nav-bar li{
+	display: inline;
+	color: #930;
+	text-transform: uppercase;
+	font-size: 0.8125em;
+	font-weight: bold;
+	padding: 0.2em;
+}
+.column li{
+	display: block;
+	color: #930;
+	text-transform: uppercase;
+	font-size: 0.6125em;
+	font-weight: bold;
+	padding: 0.2em;
+}
+                
+    .top-bar h1{display: block;
+                color: #000;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: .8125em;
+                font-weight: bold;
+                padding: .5em;}
+				
+	.tabla h1{display: block;
+                color: #000;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: .8125em;
+                font-weight: bold;
+                padding: .5em;
+				float:left;
+				margin-left:15px;}
+                
+    .content h1{
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 0.8125em;
+	font-weight: bold;
+	padding: 0.5em;
+	color: #900;
+}
+}
+
+@media only screen and (min-width: 321px) and (max-width:480px){
+	body{
+	width: 30em;
+	height: 33.125em;
+	background-image: url(../img/fondo2.png);
+}
+.column{
+	width: 8.438em;
+	height: 6.875em;
+	display: block;
+	float: left;
+}
+.column1{
+	width: 8.438em;
+	height: 8.125em;
+	display: block;
+	float: left;
+	background-image: url(../img/columna11.png);
+	margin-top:2.200em;
+	margin-left:1.875em;
+}
+.column2{
+	width: 8.438em;
+	height: 8.125em;
+	display: block;
+	float: left;
+	background-image: url(../img/columna22.png);
+	margin-top:2.200em;
+}
+.column3{
+	width: 8.438em;
+	height: 8.125em;
+	display: block;
+	float: left;
+	background-image: url(../img/columna33.png);
+	margin-top:2.200em;
+}
+.imagen1{
+	width: 6.875em;
+	height: 4.375em;
+	display: block;
+	float: left;
+	background-image: url(../img/pinto2.png);
+	margin-left:0.813em;
+}
+.imagen2{
+	width: 6.875em;
+	height: 4.375em;
+	display: block;
+	float: left;
+	background-image: url(../img/almuerzo2.png);
+	margin-left:0.813em;
+}
+.imagen3{
+	width: 6.875em;
+	height: 4.375em;
+	display: block;
+	float: left;
+	background-image: url(../img/cena2.png);
+	margin-left:0.813em;
+}
+.imagen4{
+	width: 6.875em;
+	height: 4.375em;
+	display: block;
+	float: left;
+	background-image: url(../img/cafe2.png);
+	margin-left:0.938em;
+	margin-top:0.313em;
+}
+.imagen5{
+	width: 6.875em;
+	height: 4.375em;
+	display: block;
+	float: left;
+	background-image: url(../img/postre2.png);
+	margin-left:0.938em;
+	margin-top:0.313em;
+}
+
+.contenedor{
+	width: 26.250em;
+	height: 8.750em;
+	display: block;
+	float: left;
+	background-image: url(../img/contenedor2.png);
+	margin-left:1.875em;
+	margin-top:0.625em;
+}
+.nav-bar{display: block; width: 27.813em; height: 2.188em; margin-left:1.263em;  background-image: url(../img/menu2.png); float:left;}
+
+	   .nav-bar ul{list-style-type: none;
+                text-align: center;
+                left: 0;
+                padding-top: .5em;}
+    .nav-bar li{
+	display: inline;
+	color: #930;
+	text-transform: uppercase;
+	font-size: 0.8125em;
+	font-weight: bold;
+	padding: 0.2em;
+}
+.column li{
+	display: block;
+	color: #930;
+	text-transform: uppercase;
+	font-size: 0.8125em;
+	font-weight: bold;
+	padding: 0.2em;
+}
+                
+    .top-bar h1{display: block;
+                color: #000;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.8125em;
+                font-weight: bold;
+                padding: .5em;}
+				
+	.tabla h1{display: block;
+                color: #000;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: .8125em;
+                font-weight: bold;
+                padding: .5em;
+				float:left;
+				margin-left:0.938em;}
+                
+    .content h1{
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 0.9125em;
+	font-weight: bold;
+	padding-top: .5em;
+	padding-left: 1.0em;
+	padding-bottom: .5em;
+	color: #900;
+}
+
+                
+    .content p{display: block;
+                color: #000;
+                text-align: justify;
+                font-size: 0.9125em;
+                margin: 0.4em;}
+	
+	}
